@@ -1,0 +1,8 @@
+{
+    "data_type": "linear",
+    "epoch": 1000000,
+    "learning_rate": 0.1,
+    "hidden_units": 4,
+    "activation": "sigmoid",
+    "optimizer": "no"
+}

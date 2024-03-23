@@ -4,11 +4,11 @@
     - **data_type**: data type, `linear` or `xor`
     - **epoch**: training epoch, default is `1000000`
     - **learning_rate**: learning rate, default is `0.1`
-    - **activation**: activation function, `sigmoid` or `tanh` or `relu` or `leaky_relu`
-    - **optimizer**: learning rate optimizer, no or `momentum` or `adagrad` or `adam`
+    - **activation**: activation function, `no` or `sigmoid` or `tanh` or `relu` or `leaky_relu`
+    - **optimizer**: learning rate optimizer, `no` or `momentum` or `adagrad` or `adam`
 2. Train and test the model
     
-    ```python
+    ```
     python Lab/Lab1_Back_Propagation/code/main.py
     ```
     
